@@ -1,0 +1,26 @@
+/* 
+    Document   : style
+    Created on : Mar 22, 2011, 9:07:24 PM
+    Author     : Fusion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    font-family: Verdana;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+div,a,p,span,table{
+    font-family: Verdana;
+    font-size: 1.1em;
+    color: #1f2227;
+}
+

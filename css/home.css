@@ -1,0 +1,68 @@
+/* 
+    Document   : style
+    Created on : Mar 22, 2011, 9:07:24 PM
+    Author     : Fusion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.content-header p{
+    padding-left: 20px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.content-left{
+    background-color: #D4D4D4;
+    height: 420px;
+    width:350px;
+    float:left;
+}
+
+.content-right{
+    background-color: #D4D4D4;
+    height: 420px;
+    width:600px;
+    float:right;
+}
+
+.content-report{
+    text-align: center;
+    padding:5px;
+}
+
+.content-more{
+    text-align: right;
+    padding:5px;
+    padding-right:15px;
+}
+
+.content-more a{
+    color: #0187B4;
+}
+
+.content-sitemap{
+    padding-left:15px;
+    padding-top:15px;
+}
+
+.content-sitemap a{
+    padding-right:10px;
+    text-decoration: none;
+}
+
+.divider{
+    display:block;
+    margin-top:30px;
+    margin-bottom:10px;
+    padding:15px;
+    background:#FFFFFF url('../images/divider.jpg') no-repeat ;
+}
+

@@ -1,0 +1,217 @@
+/* 
+    Document   : style
+    Created on : Mar 22, 2011, 9:07:24 PM
+    Author     : Fusion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    font-family: Tahoma;
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #000000;
+}
+
+div,a,p,span,table{
+    font-family: Tahoma;
+    font-size: 1.1em;
+    color: #1f2227;
+}
+.clear{
+    clear:both;
+}
+
+.wrapper{
+    width:978px;
+    margin: auto;
+    height: 500px;
+    background:#000000 url('../images/bg.png') no-repeat ;
+}
+
+.header-left{
+    background:#000000 url('../images/logo.png') no-repeat ;
+    float:left;
+    height: 100px;
+    width: 200px;
+}
+
+.header-right{
+    float: right;
+    height: 90px;
+    width: 500px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.header-right span {
+    color: #315152;
+}
+
+.header-right span a{
+    color: #315152;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+.header-bottom{
+    height: 162px;
+    width: 972px;
+    display:block;
+}
+
+.header-bottom-img{
+    float:left;
+    padding:10px;
+    padding-left:50px;
+    padding-top:20px;
+}
+
+.header-bottom-text{
+    float:left;
+    padding-left:80px
+}
+
+.header-bottom span{
+    font-size: 48px;
+    color: #FFFFFF;
+    font-family: Verdana;
+}
+
+.header-bottom p{
+    color: #acacac;
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 22px;
+    margin:0px;
+    margin-top:5px;
+    padding-left:35px;
+}
+
+.content-left{
+    float:left;
+    padding-right:40px;
+}
+
+.content-left p{
+    color: #0099cc;
+    font-style: italic;
+    font-size: 22px;
+    padding-left:55px;
+}
+
+.content-panel{
+    float:left;
+    padding-left: 20px;
+    padding-top: 30px;
+    border-left: 1px #0b1921 solid;
+    height: 250px;
+}
+
+.content-panel-box{
+    height: 210px;
+    width: 180px;
+    background-color: #0b1921;
+    margin-left: 10px;
+    padding-left:15px;
+    border:1px #315152 solid;
+}
+.content-panel-box table td{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.content-panel-box p{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+.panel-head{
+    font-size:24px;
+    color:#a5cc2d;
+    padding:5px;
+    text-align: center;
+}
+
+.panel-content{
+    border-top:1px #134967 solid;
+    margin-left: 12px;
+    width:150px;
+    height:1px;
+}
+
+.panel-bottom{
+    font-size: 28px ;
+    font-style:italic;
+    font-weight: bold;
+    color:#0187b4;
+    padding-top:3px;
+}
+
+.panel-signup{    
+    height:50px;
+    width:180px;
+    text-align:right;
+    padding-top:10px;
+    
+}
+
+.panel-signup a{
+    text-decoration:none;
+    color: #3c8e97;
+}
+
+.footer{
+    background:#0a1318 url('../images/footer_bg.png') repeat ;
+    float:left;
+    height: 73px;
+    width: 978px;
+    margin-top:70px;
+    color: #FFFFFF;
+}
+
+.footer div{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top:5px;
+    font-size:14px;
+}
+.footer a{
+    color: #FFFFFF;
+    font-size:14px;
+}
+
+.footer span{
+    color: #315152;
+}
+
+.payment{    
+    float:left;
+    height: 21px;
+    width: 123px;
+    float:right;
+    margin-top: -50px;
+    padding-right: 20px;
+}
+
+.error{
+    float:right;
+    padding:5px;
+    text-align:center;
+    font-size:12px;
+    width:400px;
+    height:25px;
+    display:block;
+    border:1px #5D080A solid;
+    color: #ff3333
+}

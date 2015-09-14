@@ -1,0 +1,93 @@
+/* 
+    Document   : style
+    Created on : Mar 22, 2011, 9:07:24 PM
+    Author     : Fusion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* FORM - accounts */
+.form-accounts{
+    border:1px #D4D4D4 solid;
+    padding:15px;
+    font-size:12px;
+    color: #5D080A;
+    width: 939px;
+    margin:auto;
+}
+
+.form-accounts div{
+    color: #5D080A;
+}
+
+.form-accounts p{
+    color: #1f2227;
+    padding-left:10px;
+}
+
+.a-invoices,.a-subscription{
+    display:none;
+}
+
+/* FORM -logo */
+
+.form-logo{
+    float:left;
+    padding:10px;
+}
+
+/* REGISTRATION */
+.registration{
+    font-size: 12px;
+    color: #D4CAC8;
+    padding:10px;
+    background-color: #666666;
+}
+
+/* ACCOUNT MENU */
+
+.account-menu{
+    font-size:12px;
+}
+
+.account-menu ul{
+    margin:0px;
+    padding:0px;
+}
+
+.account-menu ul li{
+    background: none repeat scroll 0 0 #5D080A;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    padding:6px;
+    cursor:pointer;
+    color:#FFFFFF;
+}
+
+.account-menu ul li:hover{
+    background: none repeat scroll 0 0 #EA292C;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    padding:6px;
+    cursor:pointer;
+    color: #FFFFFF;    
+}
+
+.a-panel{
+    padding:10px;
+    background-color: #D4D4D4;
+}
+
+.a-settings table{
+    background-color: #D4CAC8;
+    padding:10px;
+    padding-left:20px;
+}
+

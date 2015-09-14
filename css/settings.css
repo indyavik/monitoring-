@@ -1,0 +1,125 @@
+/* 
+    Document   : style
+    Created on : Mar 22, 2011, 9:07:24 PM
+    Author     : Fusion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+/* CONTENT */
+.ui-button-text{
+    color: #FFFFFF;
+}
+
+.url-checklist{
+    padding-left:15px;
+}
+
+.content-box{
+    padding-bottom: 30px;
+    margin-bottom: 8px;
+    background-color:#D4D4D4;
+}
+
+.box-title p{
+    padding-left:20px;
+    padding-right:10px;
+}
+
+.box-title h3{
+    padding:0px;
+    margin:0px;
+}
+
+.frmCheckURL{
+    display: block;
+}
+
+.frmCheckURL ul{
+    list-style-type:none;
+    margin-left:0px;
+    padding-left:0px;
+}
+
+.frmCheckURL ul li{
+    list-style-type:none;
+    padding:5px;    
+}
+
+/* TABLE -check url */
+.tbl-checkurl{
+    border:1px #D4D4D4 solid;
+    border-collapse: collapse;
+}
+
+.tbl-checkurl thead td{
+    padding:10px;
+    border:1px #D4D4D4 solid;
+    background-color:#000000;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+.tbl-checkurl tbody tr{
+    border-bottom: 2px #000000 solid;
+}
+
+.tbl-checkurl tbody tr:hover{
+    cursor:pointer;
+}
+
+.tbl-checkurl tbody td{
+    text-align:center;
+    font-weight:700;
+    background-color: #D4D4D4;
+    color: #000000;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.no-data{
+    text-align:center;
+    font-style:italic;
+    background-color: #D4D4D4;
+    color: #000000;
+}
+
+
+/* NOTIFICATION */
+.notify-cycle{
+  border-bottom: 1px #000000 dashed;
+}
+
+.notify-cycle ul{  
+    padding-bottom:10px;
+    padding-top:20px;
+    list-style-type:none;
+    width:350px;
+}
+
+.notify-cycle ul li{
+    list-style-type:none;
+    padding:5px;
+}
+
+.notify-config ul {
+    list-style-type:none;
+}
+
+.notify-config ul li{
+   list-style-type:none;
+}
+
+.n-cat{
+    padding-top:10px;
+    width:350px;
+}
+
+.n-sec li{
+    text-align: right;
+}
+
+.n-sec li label{
+    padding-right:20px;
+}

@@ -1,0 +1,184 @@
+/* 
+    Document   : style
+    Created on : Mar 22, 2011, 9:07:24 PM
+    Author     : Fusion
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+    font-family: Tahoma;
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+a {
+    color: #0099cc;
+    font-size:14px;
+    text-decoration:none;
+}
+
+div,a,p,table{
+    font-family: Tahoma;
+    font-size: 14px;
+    color:#000000;
+}
+
+.clear{
+    clear:both;
+}
+
+/* HEADER */
+
+.header{
+    margin:auto;
+    width:978px;
+    padding:5px;
+}
+
+.header-bg{
+    background-color:#000000;
+}
+
+.header-left{
+    background:#000000 url('../images/logo.png') no-repeat ;
+    float:left;
+    height: 100px;
+    width: 200px;
+}
+
+.header-right{
+    float: right;
+    height: 90px;
+    width: 500px;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+/* CONTENT */
+
+.content{
+    margin:auto;
+    width:972px;
+}
+
+.content h2{
+    color:#000000;
+}
+
+.content h3{
+    padding-left:20px;
+    color:#0099cc;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#0a1318 url('../images/footer_bg.png') repeat ;
+    background-color:#000000;
+    margin:auto;
+    height: 69px;
+    width: 978px;
+    color: #FFFFFF;
+}
+
+.footer div{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top:9px;
+    font-size:14px;
+}
+
+.footer a{
+    color: #FFFFFF;
+    font-size:14px;
+    text-decoration:none;
+}
+
+.footer span{
+    color: #315152;
+}
+
+
+/* MISC */
+.error{
+    float:right;
+    padding:5px;
+    text-align:center;
+    font-size:12px;
+    width:400px;
+    height:25px;
+    display:block;
+    border:1px #5D080A solid;
+    color: #ff3333
+}
+.payment{
+    float:left;
+    height: 21px;
+    width: 123px;
+    float:right;
+    margin-top: -50px;
+    padding-right: 20px;
+}
+
+/* LOGOUT*/
+.logout{
+    padding-right:10px;
+}
+
+.logout a{
+    font-size:14px;
+    color: #0099cc;
+    text-decoration:none;
+}
+
+/* MENU */
+.menu{
+    padding-bottom: 0px;
+    padding-top:40px;
+    float:right;
+    font-size:12px;
+}
+.menu div,a{
+    color: #D4CAC8;
+}
+
+.menu ul{
+    margin:0px;
+    padding:0px;
+    color: #D4CAC8;
+}
+
+.menu ul li{
+    background: none repeat scroll 0 0 #5D080A;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    padding:6px;
+    cursor:pointer;
+    text-decoration:none;
+    width:80px;
+    text-align: center;
+}
+
+.menu ul li:hover{
+    background: none repeat scroll 0 0 #EA292C;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    padding:6px;
+    cursor:pointer;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.menu ul li a{
+    text-decoration:none;
+}
